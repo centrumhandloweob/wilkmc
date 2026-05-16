@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WilkMC.pl -  Regulamin</title>
+    <link rel="icon" href="https://imgur.com/Vk8pK3B.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Poppins', 'sans-serif'] },
+                    colors: {
+                        brand: { 500: '#FBBF24', 600: '#F59E0B' },
+                        dark: { 800: '#111111', 900: '#050505' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #000000; color: white; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://imgur.com/JRMyOf6.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .glass-panel {
+            background: rgba(15, 15, 15, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(251, 191, 36, 0.15);
+        }
+        .animate-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 glass-panel border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="#home" class="flex items-center gap-3 group">
+                <img src="https://imgur.com/Vk8pK3B.png" alt="Logo WilkMC" class="h-12 w-12 transition-transform group-hover:scale-110">
+                <span class="text-2xl font-extrabold tracking-tighter transition-colors group-hover:text-brand-500">WILKMC<span class="text-brand-500">.PL</span></span>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#home" class="text-brand-500">Home</a>
+                <a href="#features" class="hover:text-brand-500 transition-colors">O Serwerze</a>
+                <a href="https://vishop.pl/shop/27469/server/26076" target="_blank" class="hover:text-brand-500 transition-colors">ItemShop</a>
+                <a href="http://pl05.icehost.pl:21009/" target="_blank" class="hover:text-brand-500 transition-colors">Mapa Świata</a>
+<a href="https://centrumhandloweob.github.io/wilkmc/regulamin" target="_blank" class="hover:text-brand-500 transition-colors">Regulamin</a>
+
+                <a href="#changelog" class="hover:text-brand-500 transition-colors">Zmiany</a>
+                <a href="https://discord.gg/2jqAWNRsQp" target="_blank" class="px-5 py-2 bg-white text-black rounded-full hover:bg-brand-500 transition-all">Discord</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-bg min-h-[100vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-4xl">
+            <div class="animate-up inline-block mb-4 px-4 py-1 border border-brand-500/50 rounded-full bg-brand-500/10 text-brand-500 text-xs font-bold tracking-widest uppercase">
+                REGULAMIN
+            </div>
+            <h1 class="animate-up delay-1 text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Regulamin serwera <span class="text-brand-500">WilkMC</span>
+            </h1>
+            <p class="animate-up delay-2 text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Regulamin znajduje sie poniżej...
+            </p>
+            
+           
+        </div>
+    </header>
+
+    <!-- Statystyki -->
+    
+
+<section id="rules" class="py-24 bg-dark-800/50">
+    <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-16 underline decoration-brand-500 decoration-4 underline-offset-8">
+            Regulamin EarthSMP
+        </h2>
+
+        <div class="space-y-6 text-sm leading-relaxed text-gray-300">
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">1. Postanowienia ogólne</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Regulamin jest własnością serwera <span class="text-white font-bold">wilkmc.pl</span>.</li>
+                    <li>Nieznajomość regulaminu nie zwalnia z jego przestrzegania.</li>
+                    <li>Rejestracja oznacza akceptację regulaminu.</li>
+                    <li>Administracja może zmieniać regulamin bez powiadomienia.</li>
+                    <li>Administracja może karać za czyny nieopisane w regulaminie.</li>
+                    <li>Zakupy na stronie nie podlegają zwrotowi.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">2. Konto i odpowiedzialność</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Gracz odpowiada za swoje konto, login i hasło.</li>
+                    <li>Administracja nie odpowiada za utratę konta.</li>
+                    <li>Multikonta są zakazane.</li>
+                    <li>Odwołania od bana wymagają pełnego nagrania.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">3. Zakazane działania</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Wykorzystywanie błędów serwera lub ich ukrywanie.</li>
+                    <li>Sprzedaż i kupno kont oraz itemów za prawdziwe pieniądze.</li>
+                    <li>Oszukiwanie graczy i scamowanie.</li>
+                    <li>Utrudnianie gry innym graczom i administracji.</li>
+                    <li>Reklama innych serwerów i stron bez zgody.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">4. Chat i zachowanie</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Zakaz obrażania, wyzywania i toksycznego zachowania.</li>
+                    <li>Zakaz rasizmu, nazizmu i mowy nienawiści.</li>
+                    <li>Zakaz omijania cenzury.</li>
+                    <li>Zakaz obraźliwych nicków i skinów.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">5. Handel i ekonomia</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Zakaz dodawania na /ah przedmiotów wprowadzających w błąd.</li>
+                    <li>Zakaz oszustw w handlu między graczami.</li>
+                    <li>Zakaz nieuczciwego wykorzystywania ekonomii serwera.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-2">6. Administracja i rozgrywka</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Gracz ma obowiązek współpracować z administracją.</li>
+                    <li>/helpop tylko do ważnych zgłoszeń.</li>
+                    <li>Zakaz streamsnipingu i przeszkadzania twórcom.</li>
+                    <li>Administracja może reagować na sytuacje nieujęte w regulaminie.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="discord-rules" class="py-24 bg-dark-800/50">
+    <div class="max-w-4xl mx-auto px-4">
+
+        <h2 class="text-3xl font-bold text-center mb-16 underline decoration-brand-500 decoration-4 underline-offset-8">
+            Regulamin Discord
+        </h2>
+
+        <div class="space-y-6 text-sm text-gray-300 leading-relaxed">
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-3">1. Zasady ogólne</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Korzystając z Discorda akceptujesz regulamin serwera.</li>
+                    <li>Administracja może zmieniać regulamin bez wcześniejszego powiadomienia.</li>
+                    <li>Nieznajomość zasad nie zwalnia z ich przestrzegania.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-3">2. Zachowanie na czacie</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Zakaz obrażania, wyzywania i prowokowania innych użytkowników.</li>
+                    <li>Zakaz mowy nienawiści, rasizmu, seksizmu i treści toksycznych.</li>
+                    <li>Zakaz spamowania, floodu i nadużywania caps locka.</li>
+                    <li>Zakaz omijania cenzury.</li>
+                    <li>Zakaz wykorzystywania błędów.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-3">3. Reklamy i treści</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Zakaz reklamowania innych serwerów Discord/Minecraft i innych działalności bez zgody administracji.</li>
+                    <li>Zakaz wysyłania nielegalnych, pornograficznych lub szkodliwych treści.</li>
+                    <li>Zakaz wysyłania scamów, phishingu i podejrzanych linków.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-3">4. Kanały i komunikacja</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Używaj kanałów zgodnie z ich przeznaczeniem.</li>
+                    <li>ticket i zgłoszenia tylko do spraw ważnych.</li>
+                    <li>Zakaz nadużywania pingów do administracji.</li>
+                </ul>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl">
+                <h3 class="font-bold text-white mb-3">5. Administracja</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Administracja ma prawo karać za zachowania nieopisane w regulaminie.</li>
+                    <li>Decyzje administracji są ostateczne.</li>
+                    <li>Użytkownik ma obowiązek współpracować z administracją.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <footer class="bg-black py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <a href="#" class="text-2xl font-extrabold text-white tracking-wider flex items-center justify-center md:justify-start gap-3 mb-2">
+                    <img src="https://imgur.com/Vk8pK3B.png" alt="Logo WilkMC" class="h-10 w-10">
+                    <span>WilkMC<span class="text-brand-500">.pl</span></span>
+                </a>
+                <p class="text-gray-500 text-sm">Najlepszy serwer EarthSMP w Polsce.</p>
+                <p class="text-gray-600 text-[10px] mt-2">© 2026 WilkMC. Nieoficjalny produkt Minecraft.</p>
+            </div>
+            <div class="flex gap-6">
+                <a href="https://discord.gg/2jqAWNRsQp" class="text-2xl text-gray-400 hover:text-[#5865F2] transition-colors"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.youtube.com/@wilkmc" class="text-2xl text-gray-400 hover:text-red-600 transition-colors"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyIP() {
+            const ip = "wilkmc.pl";
+            navigator.clipboard.writeText(ip).then(() => {
+                const text = document.getElementById('ip-text');
+                const oldText = text.innerText;
+                text.innerText = "SKOPIOWANO!";
+                setTimeout(() => { text.innerText = oldText; }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
